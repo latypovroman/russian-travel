@@ -9,8 +9,10 @@
   position: relative;
 }
 
-@media screen and (max-width: 768px) {
-  .cover {
-    height: calc(100vw*0.6);
+@media screen and (max-width: 320px) {
+  .cover__title {
+    padding-top: 10%;
+    font-size: 32px;
+    line-height: 35px;
   }
 }

@@ -23,3 +23,12 @@
     grid-template-rows: fit-content fit-content;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .places__place {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-bottom: 50px;
+  }
+}
