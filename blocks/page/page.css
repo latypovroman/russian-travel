@@ -16,6 +16,15 @@
        url(../../fonts/Inter-Regular.woff) format("woff");
 }
 
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(../../fonts/Inter-SemiBold.woff2) format("woff2"),
+       url(../../fonts/Inter-SemiBold.woff) format("woff");
+}
+
 .page {
   background-color: #2A2C2F;
   max-width: 1280px;
@@ -23,5 +32,3 @@
   margin: 0 auto;
   color: white;
 }
-
-
