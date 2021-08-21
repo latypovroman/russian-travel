@@ -1,13 +1,14 @@
 .cover {
   max-width: 1184px;
-  height: calc(100vw*0.6);
+  max-height: 740;
   margin: 0 auto;
   background-image: url(../../images/cover-trains.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   position: relative;
   z-index: 1;
+  display: flex;
 }
 
 .cover:after {
@@ -20,10 +21,4 @@
 
 .cover:hover .cover__hover-link {
   opacity: 0.8;
-}
-
-@media screen and (max-width: 768px) {
-  .cover {
-    height: calc(100vw*0.6);
-  }
 }
