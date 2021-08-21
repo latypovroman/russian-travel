@@ -11,3 +11,9 @@
     margin: 0 0 25px 0;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .places__text {
+    margin: 0 16px 25px 16px;
+  }
+}
