@@ -10,6 +10,6 @@
 
 
 
-[Ссылка на GitHub Pages](https://latypovroman.github.io/travel-russian/)
+[Ссылка на GitHub Pages](https://latypovroman.github.io/russian-travel/)
 
 

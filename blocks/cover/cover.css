@@ -1,6 +1,5 @@
 .cover {
   max-width: 1184px;
-  max-height: 740;
   margin: 0 auto;
   background-image: url(../../images/cover-trains.jpg);
   background-position: center;
@@ -19,6 +18,6 @@
   padding-top: calc(740/1184*100%);
 }
 
-.cover:hover .cover__hover-link {
-  opacity: 0.8;
+.cover:hover .cover__text-link {
+  background-color: rgba(42, 44, 47, 0.8);
 }

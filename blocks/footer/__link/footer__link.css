@@ -3,6 +3,7 @@
   color: #ffffff;
   font-size: 16px;
   line-height: 18px;
+  transition: 0.5s;
 }
 
 .footer__link:hover {
