@@ -10,3 +10,10 @@
     flex-direction: column;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .footer__links-list {
+    width: calc(100% - 32px);
+    margin: 0 auto;
+  }
+}

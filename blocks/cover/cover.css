@@ -16,7 +16,3 @@
   height: 0;
   padding-top: calc(740/1184*100%);
 }
-
-.cover:hover .cover__text-link {
-  background-color: rgba(42, 44, 47, 0.8);
-}

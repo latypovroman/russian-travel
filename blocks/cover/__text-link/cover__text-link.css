@@ -10,6 +10,10 @@
   box-sizing: border-box;
 }
 
+.cover:hover .cover__text-link {
+  background-color: rgba(42, 44, 47, 0.8);
+}
+
 @media screen and (max-width: 900px) {
   .cover__text-link {
     padding-top: 15%;
