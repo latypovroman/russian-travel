@@ -5,7 +5,7 @@
   column-gap: 40px;
   row-gap: 48px;
   align-content: start;
-  min-height: 581px;
+
   margin-bottom: 80px;
 }
 
@@ -23,10 +23,11 @@
 @media screen and (max-width: 768px) {
   .places__place {
     column-gap: 28px;
+    margin-bottom: 48px;
   }
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 600px) {
   .places__place {
     display: flex;
     flex-direction: column;
