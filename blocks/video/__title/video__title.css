@@ -1,0 +1,8 @@
+.video__title {
+  max-width: 800px;
+  font-size: 72px;
+  line-height: 78px;
+  margin: 0 auto 48px;
+  text-align: center;
+  font-weight: 900;
+}
